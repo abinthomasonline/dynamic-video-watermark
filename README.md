@@ -1,6 +1,8 @@
 # Dynamic Video Watermark
 
-This is a simple python script to add a watermark to a video. The watermark animation can be customized by `Animation` subclass.
+This is a simple python script to add a watermark to a video. The watermark animation can be customized by `Animation` subclass. The animation configuration can be passed as a json file.
+
+The code contains one example of `Animation` subclass, `HorizontalSlide`. The animation configuration for `HorizontalSlide` is in `anim_configs.json`.
 
 ## Installation
 ```bash

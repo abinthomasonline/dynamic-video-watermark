@@ -5,10 +5,13 @@ import cv2
 class Animation(ABC):
     @abstractmethod
     def prepare(self, **kwargs):
+        """Prepare the watermark image for the animation. The watermark image will be resized and converted to BGRA"""
         pass
 
     @abstractmethod
-    def stamp(self, frame, **kwargs):
+    def stamp(self, **kwargs):
+        """Invoked for each frame to stamp the watermark image on the frame. 
+        The frame is returned with the watermark image stamped on it."""
         pass
 
 
