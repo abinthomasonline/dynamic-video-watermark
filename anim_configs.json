@@ -1,0 +1,9 @@
+{
+    "HorizontalSlide": {
+        "image_width": 0.2, 
+        "image_height": -1, 
+        "overlay_y": 0.6, 
+        "slide_speed": 0.2,
+        "direction": "right"
+    }
+}
